@@ -1,46 +1,37 @@
-
-Your README.md file should include all of the following:
+This project is for Udacity course Full Stack Web Developer project 5 - 
+configuring Linux for a web application.
 
 i. The IP address and SSH port so your server can be accessed by the reviewer.
-ip: 10-20-1-172
+    ip: 52.38.84.59
+    ssh port: 2200
 
-ii. The complete URL to your hosted web application.
+ii. The complete URL to your hosted web application:
+    http://ec2-52-38-84-59.us-west-2.compute.amazonaws.com/api/all
 
 iii. A summary of software you installed and configuration changes made.
+	sudo apt-get install apache2
+	sudo apt-get install libapache2-mod-wsgi
+	sudo apt-get install postgresql
+	sudo apt-get install python-psycopg2
+	sudo apt-get install python-pip
+	sudo pip install Flask-SQLAlchemy
+	sudo pip install bleach
+	sudo pip install oauth2client
+	sudo pip install requests
+	sudo pip install httplib2
+	sudo pip install redis
+	sudo pip install passlib
+	sudo pip install itsdangerous
+	sudo pip install flask-httpauth
+	sudo pip install werkzeug==0.8.3
+	sudo pip install flask==0.9
+	sudo pip install Flask=login==0.1.3
 
 iv. A list of any third-party resources you made use of to complete this project.
+	I consulted the links referenced in project videos, and the resources
+	other students recommended (also linked in udacity project notes)
 
-To submit:
-- Open your ~/.ssh/udacity_key.rsa file in a text editor and copy the contents of that file.
-- During the submission process, paste the contents of the udacity_key.rsa file into the "Notes to Reviewer" field.
 
------BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAyyGNAI03VUuC8vlVNmaeS5yPb/VB9NCYKWKPAj2+9zMEItA9
-zGHm5r095GQmjLdhmirtZZ1XxzU46pvxnRg9nT5USV9C6q1P19BctnbnCx04N8go
-k2Q/ykDW8DnnGhSuwqXbagn+l+Zo3YUofV6ARCVVAKzfBfBCvzWtbfODBd1xxskO
-pI18/RZMsSG8T1dRDApDL4s31DuiD30qA1rD9/wCEZSskEjFGbiSKvseTpxSp4HG
-gFfrgsvxDpISUT4IUB5sl6o4DvHDIwP9woU5pNTLW/7z8So7HrKQ9vcf2jTRZH8j
-H7+yE6hq5Zr06b93nbPD1IrAkjGR1KrCXENFeQIDAQABAoIBADrbLMzFHgxDxdx6
-6/rIPwNviIwLByJVMlGDciZXF7bufDtOFSncEBg5Ku67KgRJuij+WSzBK0bYH/ay
-Wo6HEIs4HRnpVS1ELEc+4y4nQ4iP3dMj1sXmHSmQIfcW/+Qpq/1QK0QNQ0xmAWp2
-A6ZXtFiKbJe2fyRsWhqnBeo+zW7sFvx2I1zPvFlzddGagKkbRHn5pJf6PhMbE4Ma
-i3PcMqYUndSxGclnC9pANgrKqsG4XN4FR7+km1gPLeJZ1EKgbSACZNU8bAQq1T3N
-DtAsgpkl3nEil6KrZsa6qXKcajJjGjLSZ+WnAFHy/lK1sSHl7hHeOd3Ou/AF48M1
-upLWDVECgYEA/c5M92WFUrfzTdHisvEbFqMrFbDl9pj3Vjhl4qfzu69vH3QZkyOn
-TFhc0yBrovbc/N8KZk6uPF5ZhFY8KDPcnH/LFW6lgJQVWseT9g5srOTGOIpikNwp
-45mWrUJQjkhv9co7wvHlAr9x+aVIJts9jSm00Q2hBaVmcbMc1Uan+zUCgYEAzOMZ
-9h90+NgrG5mp99xlYRkndTHDRwKn7frKBbXQZZXEy00vn5y/mXGkOAK32fpD4I5t
-L9ZA5/wd5YHOjVetwbZCQvTa6D99ksZeZskKsaPjRsh7w9JZLcsBKrIM8xxT43ac
-J7RR6mDocsPjnJk+oVGZwoa7p2TBC1PqJHVwJbUCgYEA8vpOmsXZJkCur8CQbEkA
-auKYu7JX5YW5vBRQDfZGE1c3ZgBK/58xaZhqfUDbau80zu1kUl9e1LJqtpOsEbzc
-pgJ91K3Ryc96xias0vIqPjbiQXzSMeZkP91o78O9xQk6Di+mmNHlMYVAQwRll7Vq
-LrtPvJd0oSggdBdKMi/rX0UCgYAFOVklHGI4IhLfTki2KClxk1mdNFqdSeUMPVO/
-V4ZrwKjW4i3vrOh5uhsMzozvguEOLbN8/8KB57y/aFLi6bRldwcze9jFCTFjd6la
-h4+9PceCu4PkV02szDtIYmfQHw3Ig/KxVHiuODBVFMeN655cMJ9yBUttljUR297h
-dRkZ7QKBgE6I590JOfqmWlNSKeUEH3B6ZKqthiZdev6BN3pJcVN0bXrIZiTvhBwm
-SuQh4VaJCt28dMQjUtO1ZpW5d5nNiUkac5ltzapcX36e+0rMNPzGXqDulTGYZ46y
-DF16w67vhKivWvDOOsvae5yDL+dkspyaQRYUnWJQlsyuRMLGf5eq
------END RSA PRIVATE KEY-----
 
 
 =======================================================================
