@@ -7,9 +7,14 @@ i. The IP address and SSH port so your server can be accessed by the reviewer.
 
 ii. The complete URL to your hosted web application:
     http://ec2-52-38-84-59.us-west-2.compute.amazonaws.com/api/all
+Suggestion: 
+For your future projects consider configuring DNS software.  In order to get a hostname/domainname in your machine you can sign up in any free service as www.no-ip.com, and register the IP with the desired hostname and any of the free domain names available.
 
 iii. A summary of software you installed and configuration changes made.
 	sudo apt-get install apache2
+
+Suggestion: For monitoring Apache status, you can use the Apache module mod_status.
+
 	sudo apt-get install libapache2-mod-wsgi
 	sudo apt-get install postgresql
 	sudo apt-get install python-psycopg2
@@ -31,7 +36,11 @@ iv. A list of any third-party resources you made use of to complete this project
 	I consulted the links referenced in project videos, and the resources
 	other students recommended (also linked in udacity project notes)
 
-
+Suggestion: 
+There is a way to accelerate your web-application by using Nginx web-server.
+You can customize it for different purposes.
+For instance: caching, protection against hotlinking and DDoS attacks.
+You can learn how to configure it from these books: http://nginx.org/en/books.html
 
 
 =======================================================================
@@ -73,6 +82,8 @@ dpkg-reconfigure tzdata
 sudo ufw status
 sudo ufw allow 2200/tcp
 sudo ufw status
+
+Suggestion: UFW rate limiting can be used to prevent from brute force attacks.
 
 - Change the SSH port from 22 to 2200
 vi /etc/ssh/sshd_config
